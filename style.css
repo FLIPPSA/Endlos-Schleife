@@ -1,0 +1,145 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #fff;
+}
+
+img{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.linkbk{
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.navbar-brand{
+    height: 125px;
+    width: 100px;
+    margin-top: -40px;
+    box-shadow: none;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
+    color: #709987;
+}
+
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header{
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+
+h1, .smaller{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 150;
+    font-size: 2rem;
+    margin-left: 20px;
+}
+
+.smaller{
+    font-size: 1.5rem;
+    white-space: nowrap;
+    margin-top: -20px;
+}
+
+.social-round-icon.white-round-icon:hover{
+    color: #709987;
+}
+
+.fa-icon:hover{
+    background-color: #709987;
+}
+
+a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+.carousel-control{
+    color: #709987;
+}
+
+.carousel-control:hover{
+    color: #709987;
+}
+
+.h2:after, h2:after{
+    color: #709987;
+}
+
+.endlos_logo{
+    width: 40%;
+    height: 40%;
+    box-shadow: none;
+
+}
+
+.btn-primary{
+    color: #709987;
+    border-color: #709987;
+}
+
+.btn-primary:hover{
+    background-color: #709987;
+    border-color: #709987;
+}
+
+.boxartext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid black;
+    margin-top: 30px;
+    height: 150px;
+    width: 250px;
+}
+
+.hover{
+    transition: all .3s;
+}
+
+.hover:hover{
+    transform: scale(1.05);
+}
+
+.underline::before {
+    margin-bottom: 25px;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform: scaleX(0); 
+    transition: .3s ease;
+}
+
+.underline:hover::before {
+    transform: scaleX(.6);
+}
+
+.more:hover::before {
+    transform: scaleX(.8);
+}
+
+.diff:hover::before {
+    transform: scaleX(.7);
+}
+
+img{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
